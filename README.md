@@ -73,6 +73,7 @@ Notes from reverse engineering the game. They cite addresses and function names.
 
 ## Related projects
 
+- [dw4-gc](https://github.com/ivanno4317/dw4-gc): decompilation of the GameCube version (USA)
 - [DigiAtlas](https://github.com/crashbashash/DigiAtlas): maps, drops and calculators
 - [DW4 Crown Mod](https://github.com/crashbashash/DW4_Crown_Mod): disc patcher for several regions and consoles
 - [DW4 Developer Stage](https://crashbashash.github.io/dw4-dev-stage/): guide to the hidden debug stage
