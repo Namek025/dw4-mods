@@ -144,7 +144,7 @@ patch=1,EE,0033410C,word,3C020008
 [Mods\Death: recover your chip with X]
 author=Namek025
 description=Next to your backup chip (it lights up at 15 units), X recovers it: returns all bits and 100% of the lost EXP, with no Recovery Disk. Only the chip's owner; a teammate is still revived with Raise.
-// replaces beNDMWMdlPlayer2's update (func_003D4EA0); source: chip_pickup.cpp in dw4-decomp, docs/death.md
+// replaces beNDMWMdlPlayer2's update (func_003D4EA0); source: chip_pickup.cpp in dw4-ps2-ai, docs/death.md
 // chip_pickup.cpp: func_003D4EA0, 0x200 bytes of 0x220
 patch=1,EE,003D4EA0,word,27BDFFB0
 patch=1,EE,003D4EA4,word,FFBF0040
@@ -278,7 +278,7 @@ patch=1,EE,003D509C,word,27BD0050
 [Mods\Evolutions: shared level]
 author=Namek025
 description=All of a player's forms share level, EXP, weapon skills and UPCNT. Each form uses its own stats (INI + GROW) at that level: evolving does not go back to level 1, and returning to the base keeps the level.
-// rewrites CURRENT2BASE (beNDMWGameRam_current2Base) to save into the 16 BASE_* slots; source: shared_level.cpp in dw4-decomp, docs/evolution.md
+// rewrites CURRENT2BASE (beNDMWGameRam_current2Base) to save into the 16 BASE_* slots; source: shared_level.cpp in dw4-ps2-ai, docs/evolution.md
 // shared_level.cpp: beNDMWGameRam_current2Base, 0x1F8 bytes of 0x230
 patch=1,EE,003F8760,word,27BDFF80
 patch=1,EE,003F8764,word,00051880
