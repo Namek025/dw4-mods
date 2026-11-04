@@ -1,0 +1,16 @@
+# Game data: never commit
+disc/
+*.iso
+*.ISO
+*.elf
+SLUS_*
+*.afs
+*.AFS
+*.igb
+*.IGB
+*.glb
+
+# Local output and environment
+out/
+.venv/
+__pycache__/
